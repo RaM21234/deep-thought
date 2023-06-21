@@ -1,0 +1,28 @@
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+
+    transform: translateX(-100%);
+
+
+    position: absolute;
+    display: none;
+}
+
+.show-sidebar {
+    display: block;
+    background-color: #f8f9fa;
+    transform: translateX(0);
+    z-index: 10;
+
+
+
+
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
